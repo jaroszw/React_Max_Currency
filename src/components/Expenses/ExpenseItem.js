@@ -1,9 +1,10 @@
+import React from "react";
+
 import ExpenseDate from "./ExpenseDate";
 import "./ExpenseItem.css";
 import Card from "../UI/Card";
-import React from "react";
 
-const expenseItem = (props) => {
+const ExpenseItem = (props) => {
   return (
     <Card className="expense-item">
       <ExpenseDate date={props.date} />
@@ -15,4 +16,4 @@ const expenseItem = (props) => {
   );
 };
 
-export default expenseItem;
+export default ExpenseItem;
