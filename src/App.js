@@ -11,6 +11,8 @@ const App = () => {
     });
   };
 
+  console.log(expenses);
+
   return (
     <div>
       <NewExpense onAddExpense={addExpenseHandler} />
